@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Puspa Shahi(BATIST) | Offensive Security Researcher</title>
+    <meta
+      name="description"
+      content="Puspa Shahi(BATIST) is an offensive security researcher and penetration tester focused on web application security, API security, OSINT, and CTF research."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@500;700;800&family=Rajdhani:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+
+    <header class="site-header">
+      <nav class="nav container">
+        <div class="brand">
+          <span class="brand-prefix">BAT</span>IST
+        </div>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#findings">Findings</a>
+          <a href="#achievements">Achievements</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Offensive Security Researcher • Penetration Tester</p>
+
+            <div class="name-block">
+              <div class="name-intro">Threat Intel Verified</div>
+
+              <div class="terminal-name-wrap">
+                <span class="terminal-prefix">root@batist:~$</span>
+                <span class="typed-name" data-text="Puspa Shahi(BATIST)">Puspa Shahi(BATIST)</span>
+                <span class="terminal-cursor"></span>
+              </div>
+
+              <div class="tagline-line">Offensive Security Researcher / Penetration Tester</div>
+            </div>
+
+            <p class="tagline">
+              I assess application layers, hunt for weaknesses, test access control,
+              and turn security research into practical findings with clear evidence.
+            </p>
+
+            <div class="cta">
+              <a href="#achievements" class="btn btn-primary">View Achievements</a>
+              <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+
+            <div class="quick-stats">
+              <div class="stat-card">
+                <span class="stat-number">1st</span>
+                <span class="stat-label">KFA CTF</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-number">9th</span>
+                <span class="stat-label">HackAstra</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-number">7th</span>
+                <span class="stat-label">Pentester Nepal</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-panel">
+            <div class="panel-glow"></div>
+            <div class="panel-inner">
+              <p class="panel-label">Threat Surface</p>
+              <div class="scan-line"></div>
+
+              <div class="terminal">
+                <div class="terminal-line">
+                  <span class="prompt">$</span>
+                  <span>whoami</span>
+                </div>
+                <div class="terminal-line">
+                  <span class="prompt">$</span>
+                  <span>Puspa Shahi(BATIST)</span>
+                </div>
+                <div class="terminal-line">
+                  <span class="prompt">$</span>
+                  <span>status: testing • documenting • improving</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-kicker">About</p>
+            <h2>About me</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-box">
+              <p>
+                I’m <strong>Puspa Shahi</strong>, also known as
+                <strong>BATIST</strong>, a cybersecurity student at
+                <strong>KFA Business College</strong> in Kathmandu, Nepal.
+              </p>
+              <p>
+                My work focuses on <strong>offensive security</strong>,
+                <strong>web application security</strong>, and
+                <strong>API security</strong>. I enjoy understanding how systems are
+                built, identifying weak assumptions, and evaluating how they behave
+                under real attack conditions.
+              </p>
+              <p>
+                I’ve worked on security testing across web apps, APIs, Android app surfaces,
+                and permissioned security testing workflows. I’m still learning, testing,
+                and improving while helping teams identify and fix real issues before they become risks.
+              </p>
+            </div>
+
+            <div class="about-box">
+              <p>
+                My interests include <strong>web exploitation</strong>,
+                <strong>authorization flaws</strong>, IDOR/BOLA testing,
+                <strong>reconnaissance</strong>, <strong>OSINT</strong>,
+                and <strong>HTTP manipulation</strong>.
+              </p>
+              <p>
+                I use tools like <strong>Burp Suite</strong>, <strong>Caido</strong>,
+                and <strong>Kali Linux</strong> to practice structured vulnerability
+                analysis and improve my workflow as a security researcher.
+              </p>
+              <p>
+                I’ve helped identify issues such as IDOR exposure, open redirect behavior,
+                exposed API keys in Android applications, and data leakage risks in
+                permissioned testing environments.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="findings" class="section alt">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-kicker">Notable Findings</p>
+            <h2>Security issues identified during testing and research.</h2>
+          </div>
+
+          <div class="achievement-grid">
+            <article class="achievement-card">
+              <div class="badge alt">IDOR</div>
+              <h3>Unauthorized user data exposure</h3>
+              <p class="note">
+                Identified an IDOR-style issue where another user’s data could be accessed
+                through insecure object references during testing.
+              </p>
+            </article>
+
+            <article class="achievement-card">
+              <div class="badge alt">PII</div>
+              <h3>PII exposed on VDP target</h3>
+              <p class="note">
+                Discovered personal data exposure on a VDP target through a bug bounty test workflow.
+              </p>
+            </article>
+
+            <article class="achievement-card">
+              <div class="badge alt">Open Redirect</div>
+              <h3>Open redirect on Android app</h3>
+              <p class="note">
+                Found an open redirect issue in an Android application flow that could
+                be abused to redirect users to untrusted destinations.
+              </p>
+            </article>
+
+            <article class="achievement-card">
+              <div class="badge alt">API Key</div>
+              <h3>API key exposure in Android app</h3>
+              <p class="note">
+                Identified an API key embedded in an Android application that could be abused
+                to bypass premium restrictions or interact with protected services.
+              </p>
+            </article>
+
+            <article class="achievement-card">
+              <div class="badge alt">Permissioned Test</div>
+              <h3>Pre-account vulnerability</h3>
+              <p class="note">
+                Found a pre-account or authorization weakness during permissioned testing
+                on an e-commerce website, highlighting a real security gap in account handling.
+              </p>
+            </article>
+
+            <article class="achievement-card">
+              <div class="badge alt">RCE / Shell</div>
+              <h3>PHP shell exposure</h3>
+              <p class="note">
+                Identified a PHP web shell vulnerability in a target environment,
+                which required immediate remediation and security review.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="achievements" class="section">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-kicker">Achievements</p>
+            <h2>Competitive security wins and hands-on learning.</h2>
+          </div>
+
+          <div class="achievement-grid">
+            <article class="achievement-card featured">
+              <div class="badge">1st Place</div>
+              <h3>KFA Business School Live CTF</h3>
+              <p class="meta">19 September 2026 • KFA Business School</p>
+              <ul>
+                <li>Score: <strong>142 points</strong></li>
+                <li>Participants: <strong>10</strong></li>
+                <li>Duration: <strong>4 hours</strong></li>
+                <li>Challenges: <strong>9</strong></li>
+                <li>Topics: <strong>Cryptography, Steganography, Digital Forensics, Web Exploitation</strong></li>
+              </ul>
+              <p class="note">
+                This outcome strengthened my problem-solving flow, clue interpretation,
+                and structured challenge resolution under time pressure.
+              </p>
+            </article>
+
+            <article class="achievement-card">
+              <div class="badge alt">National</div>
+              <h3>HackAstra CTF 2026</h3>
+              <p class="meta">National-Level Competition • Team Fifth Man AFK (FMA)</p>
+              <ul>
+                <li>Qualified for the final</li>
+                <li>Advanced to the final stage among the top teams</li>
+                <li>Finished 9th in the final</li>
+                <li>Contributed to OSINT, reverse engineering, and miscellaneous challenges</li>
+              </ul>
+              <p class="note">
+                Teammates: Dikshya Shrestha, Aanol Basnet, and Anand Keshari.
+              </p>
+            </article>
+
+            <article class="achievement-card">
+              <div class="badge alt">Live CTF</div>
+              <h3>Pentester Nepal 11th Anniversary</h3>
+              <p class="meta">Anniversary Event • Community Security Competition</p>
+              <ul>
+                <li>Participated in the Pentester Nepal 11th Anniversary event</li>
+                <li>Engaged in a live security-focused challenge environment</li>
+                <li>Learned from the broader Nepali security community</li>
+                <li>Strengthened my practical exposure to live challenge scenarios</li>
+              </ul>
+              <p class="note">
+                A great opportunity to connect with the cybersecurity community and test skills in a real-time competition setup.
+              </p>
+            </article>
+
+            <article class="achievement-card">
+              <div class="badge alt">Live CTF</div>
+              <h3>Pentester Nepal</h3>
+              <p class="meta">15 August 2025 • Team Competition</p>
+              <ul>
+                <li>Team of 3 • 50 teams participated</li>
+                <li>Achieved 7th place</li>
+                <li>Worked in a fast-paced, collaborative security challenge environment</li>
+              </ul>
+              <p class="note">
+                Teammates: TheGreen and Miken.
+              </p>
+            </article>
+
+            <article class="achievement-card">
+              <div class="badge alt">Top 16</div>
+              <h3>Kawach Inter-College CTF</h3>
+              <p class="meta">NCIT and yeti@sec</p>
+              <ul>
+                <li>Reached the top 16 out of 30 teams</li>
+                <li>Worked on OSINT geolocation, miscellaneous puzzles, and web exploitation</li>
+                <li>Included XSS-related tasks</li>
+              </ul>
+              <p class="note">
+                This event sharpened my approach to recon-heavy workflows and web-facing challenge analysis.
+              </p>
+            </article>
+
+            <article class="achievement-card">
+              <div class="badge alt">Community</div>
+              <h3>DevFest 2025</h3>
+              <p class="meta">Participation and Learning</p>
+              <ul>
+                <li>Participated in DevFest 2025</li>
+                <li>Focused on learning modern tech and developer ecosystem trends</li>
+                <li>Strengthened my understanding of contemporary technologies and community-driven innovation</li>
+              </ul>
+              <p class="note">
+                A valuable exposure to the broader tech ecosystem and security-aware developer culture.
+              </p>
+            </article>
+
+            <article class="achievement-card">
+              <div class="badge alt">Hackathon</div>
+              <h3>Cosmos Hackathon 2025</h3>
+              <p class="meta">24-Hour Hackathon • Built a network scanning website</p>
+              <ul>
+                <li>Participated in a 24-hour hackathon</li>
+                <li>Built a network scanning website</li>
+                <li>Worked on a practical project under time pressure</li>
+                <li>Focused on real-world problem solving and hands-on execution</li>
+              </ul>
+              <p class="note">
+                This experience helped improve my product mindset, technical execution, and time-bound development workflow.
+              </p>
+            </article>
+
+            <article class="achievement-card">
+              <div class="badge alt">Hackathon</div>
+              <h3>Hack 4 Impact 2.0</h3>
+              <p class="meta">24-Hour Hackathon • Team Blue Baze</p>
+              <ul>
+                <li>Developed an idea to report garbage collection vehicle timing and road conditions</li>
+                <li>Worked on practical problem solving with a user-impact focus</li>
+              </ul>
+              <p class="note">
+                Built under pressure while balancing product thinking, teamwork,
+                and technical execution.
+              </p>
+            </article>
+
+            <article class="achievement-card">
+              <div class="badge alt">Community</div>
+              <h3>OWASP Kathmandu 8th</h3>
+              <p class="meta">Participation and Learning</p>
+              <ul>
+                <li>Participated in OWASP Kathmandu 8th</li>
+                <li>Focused on API security and application security trends</li>
+                <li>Strengthened interest in secure API design and testing</li>
+              </ul>
+              <p class="note">
+                An important learning platform for understanding modern application security challenges.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="certifications" class="section alt">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-kicker">Certifications</p>
+            <h2>Structured learning with hands-on security exposure.</h2>
+          </div>
+
+          <div class="cert-grid">
+            <article class="cert-card">
+              <span class="cert-type">Security</span>
+              <h3>APIsec Certified Practitioner (ACP)</h3>
+              <p>APIsec University</p>
+              <small>Exam passed</small>
+            </article>
+
+            <article class="cert-card">
+              <span class="cert-type">Security</span>
+              <h3>Google Cybersecurity Professional Certificate</h3>
+              <p>ICDL ASIA</p>
+              <small>Completed</small>
+            </article>
+
+            <article class="cert-card">
+              <span class="cert-type">Training</span>
+              <h3>Advent of Cyber 2025</h3>
+              <p>TryHackMe</p>
+              <small>Completed / Credential available if published</small>
+            </article>
+
+            <article class="cert-card">
+              <span class="cert-type">Productivity</span>
+              <h3>ICDL Asia — Application Essentials</h3>
+              <p>Digital productivity skills</p>
+            </article>
+
+            <article class="cert-card">
+              <span class="cert-type">Spreadsheet</span>
+              <h3>ICDL Asia — Advanced Financial Spreadsheet</h3>
+              <p>Spreadsheet skills</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-kicker">Education</p>
+            <h2>Academic foundation and technical learning path.</h2>
+          </div>
+
+          <div class="edu-box">
+            <div class="edu-item">
+              <span class="degree">Bachelor of Cyber Security</span>
+              <h3>KFA Business College</h3>
+              <p>Kathmandu, Nepal</p>
+            </div>
+
+            <div class="edu-item">
+              <span class="degree">Higher Secondary Education (+2), Computer Science</span>
+              <h3>Gorkha United Public College</h3>
+              <p>Kohalpur</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="container">
+          <div class="contact-box">
+            <p class="section-kicker">Contact</p>
+            <h2>Let’s connect and build something secure.</h2>
+            <p>
+              I’m actively learning, exploring, and growing in offensive security.
+              If you’d like to connect, collaborate, or talk security, feel free to reach out.
+            </p>
+
+            <div class="contact-links">
+              <a href="https://www.linkedin.com/in/puspa-shahi/" class="btn btn-secondary" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a href="https://www.instagram.com/puspa_shahii?mdxt=ZTczcndpZzJlZjM4" class="btn btn-secondary" target="_blank" rel="noreferrer">Instagram</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 Puspa Shahi</p>
+        <p>Built for security research and continuous learning.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
